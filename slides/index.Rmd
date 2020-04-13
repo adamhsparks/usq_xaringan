@@ -6,8 +6,9 @@ date: "University of Southern Queensland </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["https://github.com/adamhsparks/usq_xaringan/css/usq.css", "https://github.com/adamhsparks/usq_xaringan/css/usq-fonts.css"]
+    css: ["https://github.com/adamhsparks/usq_xaringan/tree/master/css/usq.css", "https://github.com/adamhsparks/usq_xaringan/tree/master/css/usq-fonts.css"]
     nature:
+      beforeInit: "https://github.com/adamhsparks/usq_xaringan/tree/master/js/isq_xaringan.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
