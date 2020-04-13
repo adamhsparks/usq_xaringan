@@ -1,0 +1,30 @@
+Package: USQ.xaringan
+Title: Xaringan Template With Univerity of Southern Queensland Corporate Identity
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Adam H.",
+           family = "Sparks",
+           role = c("aut", "cre"),
+           email = "adamhsparks@usq.edu.au")
+Description: A template and CSS files for reproducing the corporate identity
+    presentation style of the University of Southern Queensland `xaringan`.
+    USQ's templates are available internally as Powerpoint Slide Templates only.
+    This package lets you achieve that style while also being able to take
+    advantage of RMarkdown. Please note that this package is not an official
+    product of USQ.
+License: MIT + file LICENSE
+URL: https://github.com/adamhsparks/usq_xaringan
+BugReports: https://github.com/adamhsparks/usq_xaringan/issues
+Encoding: UTF-8
+LazyData: true
+Imports:
+    xaringan (>= 0.13.2)
+Suggests:
+    fontawesome,
+    ggplot2,
+    theme.usq
+Remotes:
+    adamhsparks/theme.usq
+    rstudio/fontawesome
+    yihui/xaringan
+RoxygenNote: 7.1.0
