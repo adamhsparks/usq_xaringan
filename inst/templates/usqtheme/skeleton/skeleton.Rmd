@@ -1,0 +1,125 @@
+---
+pagetitle: "Example title"
+output:
+  xaringan::moon_reader:
+    css: ["css/usq.css", "css/usq-fonts.css"]
+    js: ["usq_xaringan.js"]
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+```{r setup, include=FALSE, echo=FALSE}
+# load ggplot2 and theme.usq, setting theme.usq as default theme
+knitr::opts_chunk$set(
+  fig.dim = c(4.5, 4.2),
+  fig.retina = 2,
+  out.width = "95%"
+)
+library("ggplot2")
+library("theme.usq")
+library("fontawesome")
+theme_set(theme_usq())
+```
+
+class: title-slide, bottom
+
+.title-slide-title-text[Presentation Title]
+
+.title-slide-subtitle-text[Subtitle]
+
+
+
+???
+
+---
+class: heading-slide, middle
+background-image: url("img/JGardens0414_gy_031.jpg")
+background-size: cover
+
+.heading-slide-text["Pull-out quote or testimonial"]
+
+???
+
+---
+
+.remark-slide-title-text[Heading]
+.remark-slide-subtitle-text[Sub-heading]
+
+.pull-left[
+| Left       | Center     | Right      |
+| :--------- | :--------: | ---------: |
+| Content A  | A          | 1000       |
+| Content B  | B          | 1000       |
+| Content C  | C          | 1000       |
+| Content D  | D          | 1000       |
+| Content E  | E          | 1000       |
+]
+
+.pull-right-text[
+* Bullet points
+]
+
+???
+
+* Text on this slide should be minimal
+* Use quotes, bullets and tables to help simplify
+* Code goes on a text slide
+* Highlight lines with "#<<"
+* Set image output parameters in the chunk settings (width, dots per square inch, etc)
+* You can use .pull-right[] to arrange code/plots side by side
+* If you want your output full screen, use a heading slide with no overlaid text
+
+---
+
+.remark-slide-title-text[Heading]
+.remark-slide-subtitle-text[Sub-heading]
+
+.code-left[
+```{r plot-label, eval=FALSE}
+# code chunk here
+ggplot(iris, aes(x = Sepal.Length,
+           y = Sepal.Width,
+           color = Species)) +
+  geom_point() +
+  scale_colour_usq() +
+  theme_usq()
+```
+]
+
+.plot-right[
+```{r plot-label-out, ref.label="plot-label", echo=FALSE}
+```
+]
+
+???
+
+* Text on this slide should be minimal
+* Use quotes, bullets and tables to help simplify
+* Code goes on a text slide
+* Highlight lines with "#<<"
+* Set image output parameters in the chunk settings (width, dots per square inch, etc)
+* You can use .pull-right[] to arrange code/plots side by side
+* If you want your output full screen, use a heading slide with no overlaid text
+
+---
+class: closing-slide, bottom
+
+.closing-slide-statement[Closing Statement]
+
+---
+
+class: final-slide
+
+.final-slide-text[Closing Text]
+
+.final-slide-find-out[Find out more:<br />
+`r fa("twitter", fill = "white")` *Twitter Username*<br />
+`r fa("phone", fill = "white")` *phone number* &nbsp;`r fa("mouse-pointer", fill = "white")` *your website delete this text if none*
+<!-- Do not delete or modify next line -->
+.cricos[<br />CRICOS QLD 00244B | NSW 0225M TEQSA: PRV12081]
+]
+

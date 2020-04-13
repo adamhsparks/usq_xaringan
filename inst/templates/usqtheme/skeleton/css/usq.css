@@ -1,0 +1,295 @@
+/************
+usq_xaringan
+Styles for Xaringan slides with University of Southern Queensland corporate identity
+https://github.com/adamhsparks/usq_xaringan
+April 2020
+/************
+/* Text slide (default) */
+
+.remark-slide-content {
+  background: url(../img/USQ_Logo_Upper_Left.png);
+  background-position: 2.5% 2.5%;
+  background-size: 12%;
+  background-repeat: no-repeat;
+  font-size: 20px;                    /* regular text size */
+  padding: 10px;                      /* space on top, left, right, bottom*/
+  background-color: #fff;             /* white background */
+  color: #000;                        /* black text */
+}
+
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url(../img/USQ_Logo_Title_Slide.png);
+  background-position: 50% 25%;
+  background-size: 50%;
+  background-color: #fff;
+  text-align: center;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* Add image and change bg color */
+.final-slide {
+  background-image: url(../img/USQ_Logo_Title_Slide.png);
+  background-position: 50% 15%;
+  background-size: 40%;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Heading slide with image */
+
+.heading-slide {
+  background-color: #fff;
+}
+
+.heading-slide-text {
+  color: #fff;                /* white text*/
+  text-shadow: 0 0 0;         /* no text shadow */
+  border-bottom: 0;           /* no border */
+  font-size: 28px;            /* large text size */
+  font-weight: bold;          /* headings are bold */
+  position: absolute;         /*Position the background text */
+  top: 50%;                   /* Position in middle of page */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #fff; /* white text */
+  width: 40%; /* 40% width */
+  padding: 20px; /* Some padding */
+}
+
+/* title fonts */
+.title-text, .title-slide-title-text, .remark-slide-title-text {
+  color: #ffd100;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.subtitle-text, .title-slide-subtitle-text, .remark-slide-subtitle-text, .final-slide-text {
+  color: #000;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* title slide fonts */
+
+.title-slide-title-text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-slide-subtitle-text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.remark-slide-title-text {
+  position: absolute;
+  top: 150px;
+  margin-left: 2.5%;
+}
+
+.remark-slide-subtitle-text {
+  position: absolute;
+  top: 200px;
+  margin-left: 2.5%;
+}
+
+.final-slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Code blocks */
+
+.remark-code {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+/* Inline code */
+
+.remark-inline-code{
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+/* Hyperlinks */
+
+a, a > code {
+  color: #0009FF;              /* hyperlinks are blue */
+  text-decoration: underline;  /* hyperlinks are underlined */
+}
+
+/* Slide numbers */
+
+.remark-slide-number {
+  display: none;  /* remove them */
+}
+
+/* Footnotes */
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+
+/* Code highlighting */
+
+.remark-code-line-highlighted { background-color: #ffff88; }
+
+/* Two-column layout */
+
+.pull-left {
+  width: 62.5%;
+  height: 50%;
+  float: left;
+  margin-top: 230px;
+  margin-left: 2.5%;
+  padding: 0;
+}
+
+.pull-right-image {
+  height: 100%;
+  float: right;
+  width: 32.5%;
+  padding: 0;
+  margin-top: -20px;
+}
+
+.pull-right-text {
+  height: 50%;
+  float: right;
+  width: 32.5%;
+  padding: 0;
+  margin-top: 230px;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
+
+/* Custom two-col code/figure from Garrick Aden-Buie */
+.code-left {
+  background: #fff;
+  color: #777;
+  width: 35.5%;
+  margin-top: 230px;
+  margin-left: 2.5%;
+  float: left;
+}
+.plot-right {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+
+/* Media insertion*/
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+/* Blockquote */
+
+blockquote {
+  border-left: solid 5px fff;
+  padding-left: 1em;
+}
+
+/* Tables */
+
+.remark-slide table {
+  margin: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+
+th, td { padding: 5px; }
+
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
+  background: #eee
+}
+
+/* Extra tags */
+
+.black { color: #000; }       /* black text intended for heading contrast */
+.bold { font-weight: bold; }  /* bold for speaker's name on first/last slides */
+
+/* Can leave this alone */
+
+@page { margin: 0; }
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+/* Closing slide */
+
+/* Add image and change bg color */
+.closing-slide {
+  background-image: url(../img/USQ_Logo_Closing.png);
+  background-position: 50% 25%;
+  background-size: 40%;
+  background-color: #fff;
+}
+
+.closing-slide-statement, .final-slide-find-out {
+  position: absolute;
+  color: #fff;                /* white text*/
+  font-size: 28px;            /* large text size */
+  font-weight: bold;          /* headings are bold */
+  text-align: left;
+  height: 25%;                /* 25% of slide */
+  margin-top: 75%;
+  margin-left:-10px;          /* Override the default padding for all slides */
+  bottom: 0;                  /* Position at bottom of page */
+  background: #000; /* Fallback color */
+  color: #fff; /* white text */
+  width: 100%; /* 100% width */
+  padding: 25px 25px 25px 25px; /* Some padding */
+}
+
+.closing-slide-statement{
+  text-align: center;
+}
+
+.final-slide-find-out {
+  text-align: left;
+}
+
+/* Remove slide count */
+.title-slide .remark-slide-number {
+  text-shadow: none;
+}
+
+.cricos {
+  font-size: 7px;
+  position: absolute;
+  float: right;
+  text-align: right;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
