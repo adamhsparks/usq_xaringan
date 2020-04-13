@@ -120,6 +120,6 @@ class: final-slide
 `r fa("twitter", fill = "white")` *Twitter Username*<br />
 `r fa("phone", fill = "white")` *phone number* &nbsp;`r fa("mouse-pointer", fill = "white")` *your website delete this text if none*
 <!-- Do not delete or modify next line -->
-.cricos[<br />CRICOS QLD 00244B | NSW 0225M TEQSA: PRV12081]
+.cricos[<p>CRICOS QLD 00244B | NSW 0225M TEQSA: PRV12081</p>]
 ]
 
