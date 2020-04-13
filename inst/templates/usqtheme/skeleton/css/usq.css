@@ -264,11 +264,12 @@ th, td { padding: 5px; }
   height: 25%;                /* 25% of slide */
   margin-top: 75%;
   margin-left:-10px;          /* Override the default padding for all slides */
+  margin-right:-10px;
   bottom: 0;                  /* Position at bottom of page */
-  background: #000; /* Fallback color */
-  color: #fff; /* white text */
+  background: #000;
   width: 100%; /* 100% width */
   padding: 25px 25px 25px 25px; /* Some padding */
+  display: block;
 }
 
 .closing-slide-statement{
@@ -286,6 +287,7 @@ th, td { padding: 5px; }
 
 .cricos {
   font-size: 7px;
-  position: relative;
-  float: right;
+  position: absolute;
+  bottom: 8px;
+  right: 55px;
 }
