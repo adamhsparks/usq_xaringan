@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body { font-family: Verdana, sans-serif; }
+
+h1, h2, h3 {
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
+.remark-code-line-highlighted     { background-color: #ffff88; }
