@@ -1,5 +1,8 @@
 {
-  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
   "@type": "SoftwareSourceCode",
   "identifier": "USQ.xaringan",
   "description": "A template and CSS files for reproducing the corporate identity\n    presentation style of the University of Southern Queensland `xaringan`.\n    USQ's templates are available internally as Powerpoint Slide Templates only.\n    This package lets you achieve that style while also being able to take\n    advantage of RMarkdown. Please note that this package is not an official\n    product of USQ.",
@@ -74,5 +77,5 @@
     }
   ],
   "readme": "https://github.com/adamhsparks/usq_xaringan/blob/master/README.md",
-  "fileSize": "1498.472KB"
+  "fileSize": "1499.852KB"
 }
