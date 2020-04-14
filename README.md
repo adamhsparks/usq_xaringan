@@ -6,7 +6,7 @@ The theme provides USQ typography and colours for your presentation in both slid
 ## Install
 
 The template requires the [***`xaringan`***](https://github.com/yihui/xaringan) package by [Yihui Xie](https://yihui.name/), which provides an implementation of [remark.js](https://github.com/gnab/remark) through R Markdown.
-It will be installed when you download usq_xaringan.
+It will be installed when you download ***`usq_xaringan`***.
 
 ```{r}
 if (!require("remotes")) {
