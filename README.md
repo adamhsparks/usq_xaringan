@@ -20,7 +20,7 @@ install_github("adamhsparks/usq_xaringan")
 
 ## Begin a slideshow
 
-Use the usq_xaringan template in RStudio, go to `File` > `New File` > `RMarkdown...` > `From Template` > `Slide template for University of Southern Queensland`
+Use the usq_xaringan template in RStudio, go to `File` > `New File` > `R Markdown...` > `From Template` > `Slide template for University of Southern Queensland`
 
 You can also use the `draft()` function from the rmarkdown package:
 
