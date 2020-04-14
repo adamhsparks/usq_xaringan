@@ -1,0 +1,78 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "USQ.xaringan",
+  "description": "A template and CSS files for reproducing the corporate identity\n    presentation style of the University of Southern Queensland `xaringan`.\n    USQ's templates are available internally as Powerpoint Slide Templates only.\n    This package lets you achieve that style while also being able to take\n    advantage of RMarkdown. Please note that this package is not an official\n    product of USQ.",
+  "name": "USQ.xaringan: Xaringan Template With Univerity of Southern Queensland Corporate Identity",
+  "codeRepository": "https://github.com/adamhsparks/usq_xaringan",
+  "issueTracker": "https://github.com/adamhsparks/usq_xaringan/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.6.3",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Adam H.",
+      "familyName": "Sparks",
+      "email": "adamhsparks@usq.edu.au"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Adam H.",
+      "familyName": "Sparks",
+      "email": "adamhsparks@usq.edu.au"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "fontawesome",
+      "name": "fontawesome"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "theme.usq",
+      "name": "theme.usq"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "xaringan",
+      "name": "xaringan",
+      "version": ">= 0.13.2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://github.com/adamhsparks/theme.usq\n    rstudio/fontawesome\n    yihui/xaringan"
+    }
+  ],
+  "readme": "https://github.com/adamhsparks/usq_xaringan/blob/master/README.md",
+  "fileSize": "1498.472KB"
+}
