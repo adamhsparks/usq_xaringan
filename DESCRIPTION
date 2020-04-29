@@ -25,6 +25,6 @@ Suggests:
     theme.usq
 Remotes:
     adamhsparks/theme.usq
-    rstudio/fontawesome
+    ropenscilabs/icon
     yihui/xaringan
 RoxygenNote: 7.1.0

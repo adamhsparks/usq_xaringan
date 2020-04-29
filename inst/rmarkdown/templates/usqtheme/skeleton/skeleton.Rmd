@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 )
 library("ggplot2")
 library("theme.usq")
-library("fontawesome")
+library("icon")
 theme_set(theme_usq())
 ```
 
@@ -117,8 +117,10 @@ class: final-slide
 .final-slide-text[Closing Text]
 
 .final-slide-find-out[Find out more:<br />
-`r fa("twitter", fill = "white")` *Twitter username*
-`r fa("phone", fill = "white")` *phone number* &nbsp;`r fa("mouse-pointer", fill = "white")` *your website delete this text if none*
+
+`r fa("twitter")` *Twitter username*
+
+`r fa("phone")` *phone number* &nbsp;`r fa("mouse-pointer")` *your website delete this text if none*
 <!-- Do not delete or modify next line -->
 .cricos[CRICOS QLD 00244B | NSW 0225M TEQSA: PRV12081]
 ]
