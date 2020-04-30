@@ -20,7 +20,8 @@ LazyData: true
 Imports:
     xaringan (>= 0.13.2)
 Suggests:
-    fontawesome,
+    DT,
+    icon,
     ggplot2,
     theme.usq
 Remotes:
