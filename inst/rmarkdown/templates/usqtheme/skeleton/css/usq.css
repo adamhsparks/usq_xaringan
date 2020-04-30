@@ -149,6 +149,14 @@ a, a > code {
 
 .remark-code-line-highlighted { background-color: #ffff88; }
 
+/* Single column layout */
+
+.centre {
+  margin-left:2.5%;
+  padding: 0;
+  margin-top: 230px;
+}
+
 /* Two-column layout */
 
 .pull-left {

@@ -36,6 +36,7 @@ class: title-slide, bottom
 ???
 
 ---
+
 class: heading-slide, middle
 background-image: url("img/JGardens0414_gy_031.jpg")
 background-size: cover
@@ -72,6 +73,30 @@ background-size: cover
 * Set image output parameters in the chunk settings (width, dots per square inch, etc)
 * You can use .pull-right[] to arrange code/plots side by side
 * If you want your output full screen, use a heading slide with no overlaid text
+
+---
+
+.remark-slide-title-text[Data Tables]
+.remark-slide-subtitle-text[Sub-heading]
+
+.centre[
+```{r, echo=FALSE, message=FALSE}
+library("DT")
+library("dplyr")
+iris %>%
+  DT::datatable(
+    class = "compact",
+    rownames = FALSE,
+    extensions = "Buttons",
+    options = list(
+      dom = 'tBp',
+      buttons = c("csv", "excel"),
+      pageLength = 8
+    )
+  ) %>%
+  DT::formatRound(1:4, digits = 1) 
+```
+]
 
 ---
 
@@ -124,4 +149,3 @@ class: final-slide
 <!-- Do not delete or modify next line -->
 .cricos[CRICOS QLD 00244B | NSW 0225M TEQSA: PRV12081]
 ]
-
