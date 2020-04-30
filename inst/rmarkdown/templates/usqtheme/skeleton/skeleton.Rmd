@@ -13,7 +13,7 @@ output:
       ratio: "16:9"
 ---
 ```{r setup, include=FALSE, echo=FALSE}
-# load ggplot2 and theme.usq, setting theme.usq as default theme
+# load ggplot2, theme.usq, icon (for FontAwesome and other icons) and DT for tables
 knitr::opts_chunk$set(
   fig.dim = c(4.5, 4.2),
   fig.retina = 2,
@@ -22,6 +22,9 @@ knitr::opts_chunk$set(
 library("ggplot2")
 library("theme.usq")
 library("icon")
+library("DT")
+
+# set the ggplot2 themes to use theme_usq() by default
 theme_set(theme_usq())
 ```
 
@@ -76,8 +79,7 @@ background-size: cover
 
 ---
 
-.remark-slide-title-text[Data Tables]
-.remark-slide-subtitle-text[Sub-heading]
+.remark-slide-title-text[`r icon::fa("table")` Data Tables]
 
 .centre[
 ```{r, echo=FALSE, message=FALSE}
@@ -140,7 +142,6 @@ class: closing-slide, bottom
 class: final-slide
 
 .final-slide-text[Closing Text]
-
 .final-slide-find-out[Find out more:<br />
 
 `r fa("twitter")` *Twitter username*
