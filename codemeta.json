@@ -14,10 +14,10 @@
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.6.3",
+    "version": "4.0.0",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.6.3 (2020-02-29)",
+  "runtimePlatform": "R version 4.0.0 (2020-04-24)",
   "author": [
     {
       "@type": "Person",
@@ -40,8 +40,20 @@
   "softwareSuggestions": [
     {
       "@type": "SoftwareApplication",
-      "identifier": "fontawesome",
-      "name": "fontawesome"
+      "identifier": "DT",
+      "name": "DT",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=DT"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "icon",
+      "name": "icon"
     },
     {
       "@type": "SoftwareApplication",
@@ -73,9 +85,11 @@
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://github.com/adamhsparks/theme.usq\n    rstudio/fontawesome\n    yihui/xaringan"
+      "sameAs": "https://github.com/adamhsparks/theme.usq\n    ropenscilabs/icon\n    yihui/xaringan"
     }
   ],
   "readme": "https://github.com/adamhsparks/usq_xaringan/blob/master/README.md",
-  "fileSize": "1499.852KB"
+  "fileSize": "2952.666KB",
+  "developmentStatus": "https://www.tidyverse.org/lifecycle/#experimental",
+  "keywords": ["university-of-southern-queensland", "branding", "xaringan", "template", "r", "rmarkdown", "usq"]
 }
