@@ -302,17 +302,20 @@ th, td { padding: 5px; }
 
 
 /* Table Formatting */
+table {
+  border: none !important;
+}
+
+tr:nth-child(odd) td {
+  background: #FDE7CC;
+}
+
+tr:nth-child(even) td {
+  background: #FEF3E7;
+}
 
 th {
   background-color: #F9BA15;
   color: white;
   font-weight: bold;
-}
-
-tr:nth-child(odd) {
-  background: #FDE7CC;
-}
-
-tr:nth-child(even) {
-  background: #FEF3E7;
 }
