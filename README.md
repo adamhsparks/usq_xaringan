@@ -1,8 +1,14 @@
 # usq_xaringan
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Project Status: Unsupported – The project has reached a stable, usable state but I have ceased all work on it. If you wish to take over maintenance, please contact me.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
 <!-- badges: end -->
+
+*usq_xaringan* is Unsupported
+
+I have ceased all development and support for this R package.
+If you work at USQ and wish to take over the maintenance and development of this package, feel free to contact me and let me know.
+You can open an issue here to do this and ask me to transfer the repository to you.
 
 A [***`xaringan`***](https://rmarkdown.rstudio.com/) theme that mimics the USQ corporate PowerPoint template.
 The theme provides USQ typography and colours for your presentation in both slides and plots/graphs by default if using [***`ggplot2`***](https://ggplot2.tidyverse.org/) through the use of [***`theme.usq`***](https://adamhsparks.github.io/theme.usq/).
